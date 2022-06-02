@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Carnes e Ovos</title>
+    <title>Expositor</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type = "text/css" href="css/style.css">
+    <link rel="stylesheet" type = "text/css" href="css/produtorUser.css">
     <script src=""></script>
   </head>
   <body>    
@@ -17,46 +17,47 @@
         <nav>
           <a href="index.html" target="_blank">Sobre</a>
           <a href="expositor.html" target="_blank">Expositor</a>
-          <a href="">Produtores</a>
-          <a href="">Consumidores</a>
-          <a href="">Entrar</a>
-          <a href="">Cadastro</a>
+          <a href="cadastro/produtores.html" target="_blank">Produtores</a>
+          <a href="cadastro/consumidores.html" target="_blank">Consumidores</a>
+          <a href="login/entrar.html" target="_blank">Entrar</a>
+          <a href="cadastro/categoria.html" target="_blank">Cadastro</a>
         </nav>
       </header>
 
       <main class="main">
         <div class="background">
           <div class="box">
-            <div class="geral">
-              <div class="title">
-                <h2>Exposição de Alimentos</h2><br>                
-              </div>
-              <div>
+            
+            <div class="categories">
+                <h2 class="title">Produtor Rural</h2><br>
+                <br><br>
                 <form name="item" method="post" action="#">
                   <button type="button">
-                    <img class="fruit" src="img/carne.png">
-                    <p>Adicionar</p>                
+                    <a href="./produto/cadastrarProduto.html" target="_blank">
+                      <img class="fruit" src="img/cadastrar.png">
+                    </a>
+                    <h5>Cadastrar</h5>
                   </button>
                   <button type="button">
-                    <img class="fruit" src="img/carne.png">
-                    <p>Adicionar</p>                
+                    <a href="./produto/alterarProduto.html" target="_blank">
+                      <img class="fruit" src="img/alterar.png">
+                    </a>
+                    <h5>Alterar</h5>
                   </button>
                   <button type="button">
-                    <img class="fruit" src="img/carne.png">
-                    <p>Adicionar</p>                
+                    <a href="./produto/consultarProduto.html" target="_blank">
+                      <img class="fruit" src="img/consultar.png">
+                    </a>                  
+                    <h5>Consultar</h5>
                   </button>
                   <button type="button">
-                    <img class="fruit" src="img/carne.png">
-                    <p>Adicionar</p>                
-                  </button>
-                  <button type="button">
-                    <img class="fruit" src="img/carne.png">
-                    <p>Adicionar</p>                
+                    <a href="./produto/excluirProduto.html" target="_blank">
+                      <img class="fruit" src="img/descartar.png">
+                    </a>
+                    <h5>Excluir</h5>
                   </button>
                 </form>
-              </div>
             </div>
-            
           </div>
         </div>
       </main>

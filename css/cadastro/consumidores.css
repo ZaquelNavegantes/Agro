@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+.contents{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main{
+  flex-grow: 1;
+}
+
+.header{
+  background-color: #04B221;
+  min-height: 10vh;
+}
+
+.background{
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #7dffc3 100%);
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.footer{
+  background-color: #04B221;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+div .network{
+  margin-left: auto;
+  margin-right: 10vh;
+}
+
+div .contact{
+  display: flex;
+  align-items: center;
+  gap: 1vh;
+}
+
+.contact h3{
+  color: black;
+}
+
+.box{
+  background-color: #04B221;
+  min-height: 60vh;
+  min-width: 120vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+h2{
+  text-align: center;
+  color: white;
+}
+
+p{
+  font-family: sans-serif, Verdana, Geneva, Tahoma;
+}
+
+img.contato{
+  width: 5vh;
+}
+
+.consumidores{
+  margin-top: 10vh;
+  word-spacing: 2px;
+  max-width: 75vh;
+}
+
+.fruit{
+  width: 100px;
+  clip-path: circle(60%);
+}
+
+button{
+  font-size: 16px;
+  border-radius: 6px;
+  background-color: #0ca4fc;
+  border: 1px solid;
+  color:black;
+  padding: 2px;
+}
+
+.button{
+  display: grid;
+  place-items: center;
+  color: black;
+}
+
+button a{
+  color:black;
+}
+
+button:hover{
+  color: #ffdeb3;
+}
+
+button a:hover{
+  color: #ffdeb3;
+}
+
+a{
+  text-decoration: none;
+}
+
+form{
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  gap: 5vh;  
+}
+
+h3{
+  text-decoration: none;  
+}
+
+header{
+  display: flex;
+  align-items: center;
+}
+
+header nav{
+  width: 60%;
+  height: 5vh;
+  margin-left: auto;
+  margin-right: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header nav a:hover {
+  color: black;
+}
+
+div .logo{
+  margin-left: 5vh;
+  display: flex;
+  align-items: center;
+  color:white;
+}

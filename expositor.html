@@ -3,7 +3,7 @@
   <head>
     <title>Expositor</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type = "text/css" href="css/style.css">
+    <link rel="stylesheet" type = "text/css" href="css/expositor.css">
     <script src=""></script>
   </head>
   <body>    
@@ -17,10 +17,10 @@
         <nav>
           <a href="index.html" target="_blank">Sobre</a>
           <a href="expositor.html">Expositor</a>
-          <a href="">Produtores</a>
-          <a href="">Consumidores</a>
-          <a href="">Entrar</a>
-          <a href="">Cadastro</a>
+          <a href="cadastro/produtores.html" target="_blank">Produtores</a>
+          <a href="cadastro/consumidores.html" target="_blank">Consumidores</a>
+          <a href="login/entrar.html" target="_blank">Entrar</a>
+          <a href="cadastro/categoria.html" target="_blank">Cadastro</a>
         </nav>
       </header>
 
@@ -29,40 +29,41 @@
           <div class="box">
             
             <div class="categories">
-                <h2 class="titulo">Exposição de Alimentos</h2><br>
-                <div class="category">
-                  <a href="hortifruiti.html" target="_blank">
-                    <img class="fruit" src="img/hortifuit.jpg">
-                  </a>
-                  <a href="laticinios.html" target="_blank">
-                    <img class="fruit" src="img/laticinio.png">
-                  </a>
-                  <a href="proteina.html" target="_blank">
-                    <img class="fruit" src="img/carne.png">
-                  </a>
-                </div>
-                <div class="category">
-                  <h3>Hortifruti</h3>
-                  <h3>
-                    &nbsp&nbsp&nbsp&nbsp
-                    Laticínios
-                  </h3>
-                  <h3>Carnes e ovos</h3>
-                </div>
-                <div class="category">
-                  <a href="nozes.html" target="_blank">
-                    <img class="fruit" src="img/noz.png">
-                  </a>                  
-                  <a href="doces.html" target="_blank">
-                    <img class="fruit" src="img/doce.png">
-                  </a>
-                </div>
-                <div class="category">
-                  <h3>Nozes</h3>
-                  <h3>Doces</h3>
-                </div>
+                <h2 class="title">Exposição de Alimentos</h2><br>
+                <br><br>
+                <form name="item" method="post" action="#">
+                  <button type="button">
+                    <a href="./categorias/hortifruiti.html" target="_blank">
+                      <img class="fruit" src="img/hortifuit.jpg">
+                    </a>
+                    <h5>Hortifruti</h5>
+                  </button>
+                  <button type="button">
+                    <a href="./categorias/laticinios.html" target="_blank">
+                      <img class="fruit" src="img/laticinio.png">
+                    </a>
+                    <h5>Laticinios</h5>
+                  </button>
+                  <button type="button">
+                    <a href="./categorias/proteina.html" target="_blank">
+                      <img class="fruit" src="img/carne.png">
+                    </a>                  
+                    <h5>Carnes e Ovos</h5>
+                  </button>
+                  <button type="button">
+                    <a href="./categorias/nozes.html" target="_blank">
+                      <img class="fruit" src="img/noz.png">
+                    </a>
+                    <h5>Nozes</h5>
+                  </button>
+                  <button type="button">
+                    <a href="./categorias/doces.html" target="_blank">
+                      <img class="fruit" src="img/doce.png">
+                    </a>
+                    <h5>Doces</h5>
+                  </button>
+                </form>
             </div>
-            
           </div>
         </div>
       </main>

@@ -70,21 +70,11 @@ h2{
   color: white;
 }
 
-p{
-  font-family: sans-serif, Verdana, Geneva, Tahoma;
-}
-
-.contato{
+img.contato{
   width: 5vh;
 }
 
-.text{
-  margin-top: 10vh;
-  word-spacing: 2px;
-  max-width: 30vh;
-}
-
-.titulo{
+.title{
   margin-top: 10vh;
   word-spacing: 2px;
 }
@@ -92,14 +82,6 @@ p{
 .fruit{
   width: 100px;
   clip-path: circle(60%);
-}
-
-.title{
-  display: flex;
-  margin-right: auto;
-  margin-left: 0vh;
-  margin-top: 25vh;
-  height: 10vh;
 }
 
 button{
@@ -116,7 +98,12 @@ button{
 }
 
 button:hover{
-  color:#ffdeb3;
+  color:white;
+}
+
+.button{
+  display: grid;
+  place-items: center;
 }
 
 form{
@@ -128,13 +115,6 @@ form{
 
 h3{
   text-decoration: none;  
-}
-
-.category{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 5vh;  
 }
 
 header{

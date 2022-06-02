@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Adicionar produto</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type = "text/css" href="../css/produto/cadastrarProduto.css">
+    <script src=""></script>
+  </head>
+  <body>    
+    <div class="contents">
+
+      <header class="header">
+        <div class="logo">
+          <img class="logo" src="../img/logo.png" alt="Logo">
+          <h1>AGRO</h1>
+        </div>
+        <nav>
+          <a href="../index.html" target="_blank">Sobre</a>
+          <a href="../expositor.html" target="_blank">Expositor</a>
+          <a href="../cadastro/produtores.html" target="_blank">Produtores</a>
+          <a href="../cadastro/consumidores.html" target="_blank">Consumidores</a>
+          <a href="../login/entrar.html" target="_blank">Entrar</a>
+          <a href="../cadastro/categoria.html" target="_blank">Cadastro</a>
+        </nav>
+      </header>
+
+      <main class="main">
+        <div class="background">
+          <div class="box">
+            <div class="forms">
+              <h2 class="title">Adicionar Produto</h2><br>
+                <form method="post" action="#" enctype="multipart/form-data">
+                  <fieldset>
+                    <legend>Produto</legend>
+                    <label for="fazenda">Fazenda:</label>
+                    <br>
+                    <input id="fazenda" type="text" name="fazenda" placeholder="Informe o nome da sua fazenda" maxlength="30" minlength="3" pattern="[a-zA-Z\s]+" required>
+                    <br>
+
+                    <label for="nome">Nome:</label>
+                    <br>
+                    <input id="nome" type="text" name="nome" placeholder="Informe o nome do produto que deseja cadastrar" maxlength="30" minlength="3" pattern="[a-zA-Z\s]+" required>
+                    <br>
+
+                    <label for="descricao">Descrição</label>
+                    <br>
+                    <input id="descricao" type="text" name="descricao" placeholder="Informe a descrição do produto" maxlength="30" minlength="3" pattern="[a-zA-Z\s]+" required>
+                    <br>
+
+                    <label for="validade">Validade</label>
+                    <br>
+                    <input id="validade" type="date" name="validade" maxlength="10" minlength="10" pattern="[0-9]{2}\-[0-9]{2}\-[0-9]{4}" required>
+                    <br>
+
+                    <label for="preco">Preço</label>
+                    <br>
+                    <input id="preco" type="text" name="preco" placeholder="Informe o valor do produto" maxlength="10" minlength="1" pattern="[0-9]+" required>
+                    <br>
+
+                    <label for="qntd">Quantidade</label>
+                    <br>
+                    <input id="qntd" type="number" name="qntd" placeholder="Informe a quantidade do produto" maxlength="10" minlength="1" pattern="[0-9]+" required>
+                    <br>
+
+                    <label for="categoria">Categoria</label>
+                    <br>
+                    <select id="categoria" name="categoria" placeholder="Selecione uma categoria" required>
+                      <option value="" disabled selected>Selecione uma categoria</option>
+                      <option value="1">Hortifruti</option>
+                      <option value="2">Laticinio</option>
+                      <option value="3">Carnes e Ovos</option>
+                      <option value="4">Nozes</option>
+                      <option value="5">Doces</option>
+                    </select>
+                    <br>
+                    <br>
+
+                    <label for="imagem">Inserir imagem:</label><br>
+                    <input id="imagem" type="file" name="imagem" required><br>
+
+                    <button class="buttonEnviar" type="submit">
+                      <h5>Adicionar</h5>                
+                    </button>
+                  </fieldset>
+                  
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+      <main>
+        
+      </main>
+
+      <footer class="footer">
+        <div class="logo">
+          <img class="logo" src="../img/logo.png" alt="Logo">
+          <h1>AGRO</h1>
+        </div>
+
+        <div class="network">
+          <h2>Contatos</h2>              
+          <div class="contact">
+            <a href="https://github.com/ZaquelNavegantes" target="_blank">
+              <img class="contato" src="../img/github.png">
+            </a>
+              <h3>Github</h3>            
+          
+            <a href="https://www.linkedin.com/in/zaquel-navegantes" target="_blank">
+              <img class="contato" src="../img/linkedin.png">
+            </a>
+              <h3>LinkedIn</h3>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

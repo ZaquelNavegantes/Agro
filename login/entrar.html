@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Entrar</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type = "text/css" href="../css/login/entrar.css">
+    <script src=""></script>
+  </head>
+  <body>    
+    <div class="contents">
+
+      <header class="header">
+        <div class="logo">
+          <img class="logo" src="../img/logo.png" alt="Logo">
+          <h1>AGRO</h1>
+        </div>
+        <nav>
+          <a href="../index.html" target="_blank">Sobre</a>
+          <a href="../expositor.html" target="_blank">Expositor</a>
+          <a href="../cadastro/produtores.html" target="_blank">Produtores</a>
+          <a href="../cadastro/consumidores.html" target="_blank">Consumidores</a>
+          <a href="entrar.html">Entrar</a>
+          <a href="../cadastro/categoria.html" target="_blank">Cadastro</a>
+        </nav>
+      </header>
+
+      <main class="main">
+        <div class="background">
+          <div class="box">
+            <div class="forms">
+              <h2 class="title">Entrar</h2><br>
+                <form method="post" action="#">
+                  <fieldset>
+                    <legend>Dados</legend>
+                    <label for="email">E-mail</label>
+                    <br>
+                    <input id="email" type="email" name="email" placeholder="Informe um email válido" pattern="^[\w._-]+@[\w._-]+\.[\w]+" onblur="EmailIsValid()" required>
+                    <br>
+                    <label for="senha">Senha</label>
+                    <br>
+                    <input id="senha" type="password" name="senha" placeholder="Informe sua senha" maxlength="30" minlength="3" pattern="[a-zA-Z\s]+" onblur="NomeIsValid()" required>
+                    <br>
+                    <a class="recuperar" href="../login/recuperarSenha.html" target="_blank">Esqueci a senha</a>
+                    <button class="buttonEnviar" type="submit">
+                      <h5>Enviar</h5>                
+                    </button>
+                  </fieldset>
+                  
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+      <main>
+        
+      </main>
+
+      <footer class="footer">
+        <div class="logo">
+          <img class="logo" src="../img/logo.png" alt="Logo">
+          <h1>AGRO</h1>
+        </div>
+
+        <div class="network">
+          <h2>Contatos</h2>              
+          <div class="contact">
+            <a href="https://github.com/ZaquelNavegantes" target="_blank">
+              <img class="contato" src="../img/github.png">
+            </a>
+              <h3>Github</h3>            
+          
+            <a href="https://www.linkedin.com/in/zaquel-navegantes" target="_blank">
+              <img class="contato" src="../img/linkedin.png">
+            </a>
+              <h3>LinkedIn</h3>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
