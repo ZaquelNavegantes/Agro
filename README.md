@@ -48,4 +48,19 @@ Arquivos
 
 # 3 Entrega
 
-	a definir...
+	1 - Criação do modelo conceitual, modelo lógico e modelo fisico do banco de dados
+	2 - Conexão da aplicação web com o banco de dados
+
+	3 - Criação da função de cadastro do produto na aplicação
+	4 - Criação da função de alterar o produto na aplicação
+	5 - Criação da função de consulta do produto na aplicação
+	6 - Criação da função de deletar o produto na aplicação
+
+	7 - Criação da função de cadastro do produtor na aplicação
+	8 - Criação da função de cadastro do consumidor na aplicação
+	9 - Criação da função de login na aplicação
+
+	10 - Criação da função de compra do produto na aplicação
+
+	11 - Tratamento dos dados enviados ao banco de dados
+	12 - Tratamento dos dados requisitados do banco de dados
