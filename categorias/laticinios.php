@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Doces</title>
+    <title>Hortifruit</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type = "text/css" href="../css/categorias/doces.css">
     <script src=""></script>
@@ -32,38 +32,26 @@
                 <h2>Exposição de Alimentos</h2><br>                
               </div>
               <div>
-                <form name="item" method="post" action="doces.php">
-                  <div class="button">
-                    <img class="fruit" src="../img/doce.png">
-                    <button type="submit">
-                      <h5>Adicionar</h5>
-                    </button>
-                  </div>
-                  <div class="button">
-                    <img class="fruit" src="../img/doce.png">
-                    <button type="button">
-                      <h5>Adicionar</h5>                
-                    </button>
-                  </div>
-                  <div class="button">
-                    <img class="fruit" src="../img/doce.png">
-                    <button type="button">
-                      <h5>Adicionar</h5>                
-                    </button>
-                  </div>
-                  <div class="button">
-                    <img class="fruit" src="../img/doce.png">
-                    <button type="button">
-                      <h5>Adicionar</h5>                
-                    </button>
-                  </div>
-                  <div class="button">
-                    <img class="fruit" src="../img/doce.png">
-                    <button type="button">
-                      <h5>Adicionar</h5>                
-                    </button>
-                  </div>
-                </form>
+              <?php
+
+              include_once("../conexao.php");
+
+              //requisitando os dados na tabela sobre doces
+              $dados = "SELECT * FROM produto where categoria = 2";//mudar categoria dos doces para 5
+              $dado = mysqli_query($connection, $dados);
+              while($informacao = $dado->fetch_array()){
+                echo "Fazenda: ". $informacao['fazenda'] . "<br>";
+                echo "Nome do Produto: ". $informacao['nome'] . "<br>";
+                echo "Descrição: ". $informacao['descricao'] . "<br>";
+                echo "categoria do produto: ". $informacao['categoria'] . "<br>";
+                echo "imagem do produto: ". $informacao['imagem'] . "<br>";
+                echo"<br>";
+
+              }
+
+              //header("Location: index.html");
+
+              ?>
               </div>
             </div>
             

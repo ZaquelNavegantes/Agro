@@ -2,7 +2,17 @@
 
 Aplicação web destinada a divulgação e comercialização de produtos agrícolas.
 
-Para executar a aplicação basta baixar e extrair o zip contendo o projeto em seu computador. Em seguida execute o arquivo index.html. Todas as funções disponíveis poderão ser acessadas através do arquivo index.html.
+
+Para executar a aplicação deve-se baixar o servidor web XAMPP e instalá-lo
+é necessário também baixar o arquivo zip do repositório do github
+e extrair o zip contendo o projeto em seu computador na pasta C:\xampp\htdocs.
+Deve-se ter instalado um servidor MySQL além do banco proposto para o sistema e atualizar as
+informações contidas no arquivo de conexão com o banco de dados.
+
+
+
+
+Em seguida execute o arquivo index.html. Todas as funções disponíveis poderão ser acessadas através do arquivo index.html.
 
 # 1 Entrega
 
@@ -48,19 +58,19 @@ Arquivos
 
 # 3 Entrega
 
-	1 - Criação do modelo conceitual, modelo lógico e modelo fisico do banco de dados
-	2 - Conexão da aplicação web com o banco de dados
+	1 - Criação do modelo conceitual, modelo lógico e modelo fisico do banco de dados ENVIADO
+	2 - Conexão da aplicação web com o banco de dados ENVIADO
 
-	3 - Criação da função de cadastro do produto na aplicação
-	4 - Criação da função de alterar o produto na aplicação
-	5 - Criação da função de consulta do produto na aplicação
-	6 - Criação da função de deletar o produto na aplicação
+	3 - Criação da função de cadastro do produto na aplicação ENVIADO
+	4 - Criação da função de alterar o produto na aplicação EM FALTA
+	5 - Criação da função de consulta do produto na aplicação EM FALTA
+	6 - Criação da função de deletar o produto na aplicação EM FALTA
 
-	7 - Criação da função de cadastro do produtor na aplicação
-	8 - Criação da função de cadastro do consumidor na aplicação
-	9 - Criação da função de login na aplicação
+	7 - Criação da função de cadastro do produtor na aplicação ENVIADO
+	8 - Criação da função de cadastro do consumidor na aplicação ENVIADO
+	9 - Criação da função de login na aplicação EM FALTA
 
-	10 - Criação da função de compra do produto na aplicação
+	10 - Criação da função de compra do produto na aplicação EM FALTA
 
-	11 - Tratamento dos dados enviados ao banco de dados
-	12 - Tratamento dos dados requisitados do banco de dados
+	11 - Tratamento dos dados enviados ao banco de dados ENVIADO
+	12 - Tratamento dos dados requisitados do banco de dados EM FALTA
