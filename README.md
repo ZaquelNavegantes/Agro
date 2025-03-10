@@ -1,6 +1,6 @@
 # Agro
 
-Aplicação web destinada a divulgação e comercialização de produtos agrícolas.
+Aplicação web destinada a divulgação de produtos agrícolas.
 
 
 Para executar a aplicação deve-se baixar o servidor web XAMPP e instalá-lo
